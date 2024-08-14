@@ -1,0 +1,97 @@
+.p-datatable .p-datatable-thead > tr > th {
+    font-weight: bold;
+    background-color: #F4F4F1;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    font-weight: 500
+}
+
+.p-datatable .custom-text-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.custom-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.custom-switch .p-inputswitch {
+    width: 55px;
+    height: 25px;
+}
+
+.custom-switch .p-inputswitch .p-inputswitch-slider {
+    width: 55px;
+    height: 25px;
+}
+
+.custom-switch .p-inputswitch .p-inputswitch-slider:before {
+    width: 17px;
+    height: 17px;
+}
+
+.custom-switch .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
+    left: 0.7rem;
+    margin-top: -0.605rem;
+}
+
+.custom-switch .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider,
+.custom-switch .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:hover {
+    background: grey;
+}
+
+/* OFF */
+.custom-switch .p-inputswitch .p-inputswitch-slider,
+.custom-switch .p-inputswitch .p-inputswitch-slider:hover {
+    background: lightgrey;
+}
+
+.editable-cell {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.edit-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.editable-cell:hover .edit-icon {
+    opacity: 1;
+}
+
+.p-button.p-component.p-button-text.p-button-info.p-button-icon-only {
+    font-size: 1.5rem;
+    color: black;
+    background: transparent;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+.p-button.p-component.p-button-text.p-button-info.p-button-icon-only:hover {
+    background: transparent;
+    color: black;
+    box-shadow: none;
+}
+
+.p-button.p-component.p-button-text.p-button-info.p-button-icon-only:focus,
+.p-button.p-component.p-button-text.p-button-info.p-button-icon-only:active {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.p-button-icon.p-c.pi {
+    font-size: 1.3rem;
+}

@@ -1,0 +1,111 @@
+.p-sidebar-right .p-sidebar {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    min-width: 50%;
+}
+
+.p-sidebar-mask.p-component-overlay {
+    animation: none;
+}
+
+.p-sidebar .p-sidebar-header {
+    display: none;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.sidebar-header-titles {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sidebar-header-titles .p-button.p-button-icon-only {
+    margin-right: 1rem;
+    color: black;
+    box-shadow: none;
+}
+
+.sidebar-header-titles .p-button.p-button-text:focus,
+.sidebar-header-titles .p-button.p-button-text:hover {
+    outline: none;
+    box-shadow: none !important;
+    border: none;
+    color: black !important;
+    background: transparent !important;
+}
+
+.sidebar-title {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.sidebar-subtitle {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    width: 53%;
+}
+
+.button-group .p-button.p-button-outlined {
+    margin-right: 0.8rem;
+    width: 51%;
+    color: black;
+    height: 2.6rem;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.button-group .p-button.p-button-outlined:hover,
+.button-group .p-button.p-button-outlined:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: none;
+    color: black !important;
+}
+
+.button-group .p-button .p-button-label {
+    font-weight: unset;
+}
+
+.p-tabview .p-tabview-panels {
+    padding: 1rem 0 !important;
+}
+
+.tabs-input-label {
+    margin: 0 0 0.5rem;
+    font-weight: 500;
+}
+
+.tabs-input {
+    width: 95%;
+    background: #F4F4F1 !important;
+    margin-right: 0.8rem !important;
+    border: 1px solid gray !important;
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+/* remove the default colors from the tabs */
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    font-weight: normal !important;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: none !important;
+    border-color: white !important;
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link:focus {
+    box-shadow: none !important;
+}

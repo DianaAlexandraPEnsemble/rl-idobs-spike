@@ -1,0 +1,332 @@
+[
+  {
+    "status": "Active",
+    "code": "cn=AccountManager",
+    "name": "Account Operators",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 1,
+    "directAccounts": 0,
+    "generalInfo": {
+      "employeeNumber": "19",
+      "email": "John@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "John",
+      "surname": "Doe",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "1334"
+    },
+    "membershipInfo": {
+      "membershipId": "1",
+      "membershipName": "premium"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept1"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "cn=AccountManager2",
+    "name": "Access Control Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "LS",
+    "dynamicGroups": false,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "20",
+      "email": "Jane@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Jane",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "11"
+    },
+    "membershipInfo": {
+      "membershipId": "2",
+      "membershipName": "standard"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept2"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "cn=AccountManager3",
+    "name": "Access Control Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "CN=AccountManager4",
+    "name": "Access Control",
+    "description": "-",
+    "repository": "ACMEPRD2",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Active",
+    "code": "CN=AccountManager5",
+    "name": "Access Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS1",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Active",
+    "code": "CN=AccountManager6",
+    "name": "Access Assistance2",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "cn=AccountManager7",
+    "name": "Access Control Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "cn=AccountManager8",
+    "name": "Control Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Active",
+    "code": "cn=AccountManager9",
+    "name": "Access",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "cn=AccountManager10",
+    "name": "Access Control Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  },
+  {
+    "status": "Inactive",
+    "code": "cn=AccountManager11",
+    "name": "Access Assistance",
+    "description": "-",
+    "repository": "ACMEPRD",
+    "groupType": "CLS",
+    "dynamicGroups": true,
+    "accounts": 0,
+    "directAccounts": 1,
+    "generalInfo": {
+      "employeeNumber": "21",
+      "email": "Samantha@gmail.com",
+      "phone": "+1 353 373 393",
+      "mobile": "",
+      "givenName": "Samantha",
+      "surname": "Smith",
+      "person": ""
+    },
+    "managerInfo": {
+      "managerId": "213"
+    },
+    "membershipInfo": {
+      "membershipId": "3",
+      "membershipName": "gold"
+    },
+    "conceptInfo": {
+      "conceptName": "Concept3"
+    }
+  }
+]
